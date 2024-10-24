@@ -26,6 +26,8 @@
     <remove-project name="platform_vendor_hentai" />
     <remove-project name="platform_frameworks_native" />
     <remove-project name="platform/hardware/google/pixel" />
+    <remove-project name="platform/bootable/deprecated-ota" />
+    <remove-project name="platform/external/e2fsprogs" />
 
     <!-- ANT -->
     <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom" remote="lineage" />
@@ -107,6 +109,9 @@
     <project path="hardware/xiaomi" name="platform_hardware_xiaomi" remote="hos-surya" />
     <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="hos-surya" />
     <project path="frameworks/native" name="platform_frameworks_native" remote="hos-surya" />
+    <project path="bootable/deprecated-ota" name="platform_bootable_deprecated-ota" remote="hos-surya" />
+    <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="hos-surya" />
+
     <!-- Build -->
     <project path="build/make" name="platform_build" remote="hos-surya" >
         <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
