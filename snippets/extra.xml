@@ -25,6 +25,8 @@
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform_vendor_hentai" />
     <remove-project name="platform_frameworks_native" />
+    <remove-project name="platform_system_core" />
+    <remove-project name="platform_bootable_recovery" />
     <remove-project name="platform/hardware/google/pixel" />
     <remove-project name="platform/bootable/deprecated-ota" />
     <remove-project name="platform/external/e2fsprogs" />
@@ -110,6 +112,8 @@
     <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="hos-surya" />
     <project path="frameworks/native" name="platform_frameworks_native" remote="hos-surya" />
     <project path="bootable/deprecated-ota" name="platform_bootable_deprecated-ota" remote="hos-surya" />
+    <project path="bootable/recovery" name="platform_bootable_recovery" remote="hos-surya" />
+    <project path="system/core" name="platform_system_core" remote="hos-surya" />
     <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="hos-surya" />
 
     <!-- Build -->
